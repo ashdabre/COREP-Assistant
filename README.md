@@ -3,8 +3,12 @@
  The prototype focuses on a **small, well-scoped subset of COREP** (Own Funds – C 01.00) to show **end-to-end feasibility**, not full regulatory coverage.
 
 ---
+## LIVE URL
+### Backend url- https://corep-assistant-dwee.onrender.com/
+### Frontend url- https://corep-assistant-2.streamlit.app/
+###  Problem Statement
 
-##  Problem Statement
+NOTE- Visit the backend url first in order for frontend to work
 
 Preparing COREP regulatory returns is complex and error-prone due to:
 
@@ -86,4 +90,5 @@ streamlit run frontend/app.py
 ![Images](assistant/assistant/assets/C-img3.png) 
 ![Images](assistant/assistant/assets/C-img4.png) 
 ![Images](assistant/assistant/assets/C-img5.png) 
+
 
