@@ -425,7 +425,7 @@ def main():
         st.markdown('<div class="template-header">⚙️ Configuration</div>', unsafe_allow_html=True)
         
         # API Configuration
-        api_url = st.text_input("**API URL**", "http://localhost:8000")
+        api_url = st.text_input("**API URL**", "https://corep-assistant-dwee.onrender.com/")
         st.session_state.api_url = api_url
         
         col1, col2 = st.columns(2)
