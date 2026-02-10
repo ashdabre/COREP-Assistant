@@ -1,0 +1,43 @@
+2026-02-10 02:49:39,607 - src.main - ERROR - Import error: cannot import name 'RetrievalEngine' from 'src.core.retrieval_engine' (C:\Users\ashal\Documents\honours\Akoin\assistant\src\core\retrieval_engine.py)
+2026-02-10 03:01:02,573 - src.main - INFO - ============================================================
+2026-02-10 03:01:02,574 - src.main - INFO - Starting COREP Regulatory Assistant API
+2026-02-10 03:01:02,574 - src.main - INFO - ============================================================
+2026-02-10 03:01:02,638 - src.main - INFO - Generating report for template: C_01.00
+2026-02-10 03:01:02,638 - src.main - INFO - Question: What is Common Equity Tier 1 capital for a bank with £2 million in qualifying instruments and £750,0...
+2026-02-10 03:01:02,639 - src.services.reporting_service - INFO - Reporting Service initialized
+2026-02-10 03:01:03,038 - src.main - ERROR - Error generating report: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2026-02-10 03:01:03,039 - src.main - INFO - Generating report for template: C_01.00
+2026-02-10 03:01:03,039 - src.main - INFO - Question: What is Common Equity Tier 1 capital for a bank with £2 million in qualifying instruments and £750,0...
+2026-02-10 03:01:03,039 - src.services.reporting_service - INFO - Reporting Service initialized
+2026-02-10 03:01:03,046 - src.main - ERROR - Error generating report: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2026-02-10 03:01:03,047 - src.main - INFO - Generating report for template: C_01.00
+2026-02-10 03:01:03,048 - src.main - INFO - Question: What is Common Equity Tier 1 capital for a bank with £2 million in qualifying instruments and £750,0...
+2026-02-10 03:01:03,049 - src.services.reporting_service - INFO - Reporting Service initialized
+2026-02-10 03:01:03,061 - src.main - ERROR - Error generating report: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2026-02-10 03:06:01,212 - src.main - INFO - Shutting down COREP Regulatory Assistant API
+2026-02-10 03:06:02,832 - src.main - INFO - ============================================================
+2026-02-10 03:06:02,832 - src.main - INFO - Starting COREP Regulatory Assistant API
+2026-02-10 03:06:02,833 - src.main - INFO - ============================================================
+2026-02-10 03:08:35,297 - src.main - INFO - Shutting down COREP Regulatory Assistant API
+2026-02-10 03:08:37,896 - src.main - INFO - ============================================================
+2026-02-10 03:08:37,896 - src.main - INFO - Starting COREP Regulatory Assistant API
+2026-02-10 03:08:37,897 - src.main - INFO - ============================================================
+2026-02-10 03:09:39,049 - src.main - INFO - Shutting down COREP Regulatory Assistant API
+2026-02-10 03:09:40,478 - src.main - INFO - ============================================================
+2026-02-10 03:09:40,478 - src.main - INFO - Starting COREP Regulatory Assistant API
+2026-02-10 03:09:40,478 - src.main - INFO - ============================================================
+2026-02-10 03:10:36,683 - src.main - INFO - Generating report for template: C_01.00
+2026-02-10 03:10:36,686 - src.main - INFO - Question: What is Common Equity Tier 1 capital for a bank with £2 million in qualifying instruments and £750,0...
+2026-02-10 03:10:36,689 - src.services.reporting_service - INFO - Reporting Service initialized
+2026-02-10 03:10:36,745 - src.core.llm_client - INFO - LLM Client initialized (rule-based mode)
+2026-02-10 03:10:37,405 - src.main - ERROR - Error generating report: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2026-02-10 03:12:16,677 - src.main - INFO - Shutting down COREP Regulatory Assistant API
+2026-02-10 03:12:18,772 - src.main - INFO - ============================================================
+2026-02-10 03:12:18,773 - src.main - INFO - Starting COREP Regulatory Assistant API
+2026-02-10 03:12:18,774 - src.main - INFO - ============================================================
+2026-02-10 03:12:22,649 - src.main - INFO - Generating report for template: C_01.00
+2026-02-10 03:12:22,650 - src.main - INFO - Question: What is Common Equity Tier 1 capital for a bank with £2 million in qualifying instruments and £750,0...
+2026-02-10 03:12:22,651 - src.services.reporting_service - INFO - Reporting Service initialized
+2026-02-10 03:12:22,657 - src.core.llm_client - INFO - LLM Client initialized (rule-based mode)
+2026-02-10 03:12:23,176 - src.main - ERROR - Error generating report: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2026-02-10 03:17:09,985 - src.main - INFO - Shutting down COREP Regulatory Assistant API

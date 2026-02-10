@@ -1,0 +1,281 @@
+2026-02-10 00:33:29,034 - src.main - ERROR - Failed to setup API routes: name 'List' is not defined
+2026-02-10 00:33:29,040 - src.main - ERROR - Traceback (most recent call last):
+  File "C:\Users\ashal\Documents\honours\Akoin\assistant\src\main.py", line 120, in <module>
+    from src.api.endpoints import router
+  File "C:\Users\ashal\Documents\honours\Akoin\assistant\src\api\endpoints.py", line 4, in <module>
+    from src.schemas.request_schemas import ReportingRequest, BatchRequest
+  File "C:\Users\ashal\Documents\honours\Akoin\assistant\src\schemas\request_schemas.py", line 10, in <module>
+    class BatchRequest(BaseModel):
+  File "C:\Users\ashal\Documents\honours\Akoin\assistant\src\schemas\request_schemas.py", line 11, in BatchRequest
+    requests: List[ReportingRequest]  # Note: List needs to be imported
+              ^^^^
+NameError: name 'List' is not defined
+
+2026-02-10 00:33:29,047 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 00:33:29,403 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 00:33:29,419 - src.data.database - INFO - Database engine created successfully
+2026-02-10 00:33:29,426 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 00:33:29,432 - src.data.database - INFO - Initializing database tables...
+2026-02-10 00:33:29,436 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:33:29,437 - src.data.database - INFO - Database tables created
+2026-02-10 00:33:29,438 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:33:29,439 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 00:33:29,440 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 00:33:29,440 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 00:33:29,441 - src.main - INFO - Database initialized successfully
+2026-02-10 00:34:28,163 - src.main - ERROR - Failed to setup API routes: name 'List' is not defined
+2026-02-10 00:34:28,166 - src.main - ERROR - Traceback (most recent call last):
+  File "C:\Users\ashal\Documents\honours\Akoin\assistant\src\main.py", line 120, in <module>
+    from src.api.endpoints import router
+  File "C:\Users\ashal\Documents\honours\Akoin\assistant\src\api\endpoints.py", line 10, in <module>
+    from src.schemas.request_schemas import ReportingRequest
+  File "C:\Users\ashal\Documents\honours\Akoin\assistant\src\schemas\request_schemas.py", line 10, in <module>
+    class BatchRequest(BaseModel):
+  File "C:\Users\ashal\Documents\honours\Akoin\assistant\src\schemas\request_schemas.py", line 11, in BatchRequest
+    requests: List[ReportingRequest]  # Note: List needs to be imported
+              ^^^^
+NameError: name 'List' is not defined
+
+2026-02-10 00:34:28,169 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 00:34:28,613 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 00:34:28,632 - src.data.database - INFO - Database engine created successfully
+2026-02-10 00:34:28,640 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 00:34:28,650 - src.data.database - INFO - Initializing database tables...
+2026-02-10 00:34:28,653 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:34:28,655 - src.data.database - INFO - Database tables created
+2026-02-10 00:34:28,658 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:34:28,659 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 00:34:28,659 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 00:34:28,660 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 00:34:28,660 - src.main - INFO - Database initialized successfully
+2026-02-10 00:42:34,675 - src.main - ERROR - Failed to setup API routes: name 'List' is not defined
+2026-02-10 00:42:34,677 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 00:42:35,082 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 00:42:35,105 - src.data.database - INFO - Database engine created successfully
+2026-02-10 00:42:35,115 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 00:42:35,121 - src.data.database - INFO - Initializing database tables...
+2026-02-10 00:42:35,124 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:42:35,125 - src.data.database - INFO - Database tables created
+2026-02-10 00:42:35,125 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:42:35,125 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 00:42:35,126 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 00:42:35,126 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 00:42:35,127 - src.main - INFO - Database initialized successfully
+2026-02-10 00:44:00,584 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 00:44:00,585 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 00:44:00,888 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 00:44:00,904 - src.data.database - INFO - Database engine created successfully
+2026-02-10 00:44:00,910 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 00:44:00,918 - src.data.database - INFO - Initializing database tables...
+2026-02-10 00:44:00,920 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:44:00,922 - src.data.database - INFO - Database tables created
+2026-02-10 00:44:00,923 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:44:00,924 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 00:44:00,924 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 00:44:00,924 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 00:44:00,925 - src.main - INFO - Database initialized successfully
+2026-02-10 00:44:56,806 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 00:44:56,809 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 00:44:57,170 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 00:44:57,196 - src.data.database - INFO - Database engine created successfully
+2026-02-10 00:44:57,211 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 00:44:57,227 - src.data.database - INFO - Initializing database tables...
+2026-02-10 00:44:57,231 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:44:57,233 - src.data.database - INFO - Database tables created
+2026-02-10 00:44:57,236 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:44:57,237 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 00:44:57,238 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 00:44:57,238 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 00:44:57,239 - src.main - INFO - Database initialized successfully
+2026-02-10 00:56:08,392 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 00:56:08,396 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 00:56:08,892 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 00:56:08,920 - src.data.database - INFO - Database engine created successfully
+2026-02-10 00:56:08,929 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 00:56:08,936 - src.data.database - INFO - Initializing database tables...
+2026-02-10 00:56:08,940 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:56:08,941 - src.data.database - INFO - Database tables created
+2026-02-10 00:56:08,941 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:56:08,941 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 00:56:08,941 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 00:56:08,942 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 00:56:08,942 - src.main - INFO - Database initialized successfully
+2026-02-10 00:56:10,772 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 00:56:10,773 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 00:56:11,197 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 00:56:11,241 - src.data.database - INFO - Database engine created successfully
+2026-02-10 00:56:11,260 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 00:56:11,272 - src.data.database - INFO - Initializing database tables...
+2026-02-10 00:56:11,276 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:56:11,277 - src.data.database - INFO - Database tables created
+2026-02-10 00:56:11,277 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:56:11,279 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 00:56:11,279 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 00:56:11,280 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 00:56:11,281 - src.main - INFO - Database initialized successfully
+2026-02-10 00:59:58,472 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 00:59:58,474 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 00:59:59,100 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 00:59:59,138 - src.data.database - INFO - Database engine created successfully
+2026-02-10 00:59:59,150 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 00:59:59,159 - src.data.database - INFO - Initializing database tables...
+2026-02-10 00:59:59,164 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:59:59,166 - src.data.database - INFO - Database tables created
+2026-02-10 00:59:59,167 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:59:59,167 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 00:59:59,167 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 00:59:59,169 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 00:59:59,170 - src.main - INFO - Database initialized successfully
+2026-02-10 01:01:18,335 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 01:01:18,336 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 01:01:18,753 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 01:01:18,772 - src.data.database - INFO - Database engine created successfully
+2026-02-10 01:01:18,779 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 01:01:18,785 - src.data.database - INFO - Initializing database tables...
+2026-02-10 01:01:18,788 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 01:01:18,789 - src.data.database - INFO - Database tables created
+2026-02-10 01:01:18,790 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 01:01:18,791 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 01:01:18,791 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 01:01:18,792 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 01:01:18,792 - src.main - INFO - Database initialized successfully
+2026-02-10 01:02:29,627 - src.api.endpoints - INFO - Processing report request: template=C_01.00, bank_size=None
+2026-02-10 01:02:31,184 - src.api.endpoints - ERROR - Error generating report: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2026-02-10 01:02:32,623 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 01:02:32,625 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 01:02:33,110 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 01:02:33,131 - src.data.database - INFO - Database engine created successfully
+2026-02-10 01:02:33,140 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 01:02:33,149 - src.data.database - INFO - Initializing database tables...
+2026-02-10 01:02:33,152 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 01:02:33,153 - src.data.database - INFO - Database tables created
+2026-02-10 01:02:33,155 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 01:02:33,155 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 01:02:33,156 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 01:02:33,156 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 01:02:33,156 - src.main - INFO - Database initialized successfully
+2026-02-10 01:02:38,704 - src.api.endpoints - INFO - Processing report request: template=C_01.00, bank_size=None
+2026-02-10 01:02:39,712 - src.api.endpoints - ERROR - Error generating report: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2026-02-10 01:03:44,232 - src.api.endpoints - INFO - Processing report request: template=C_01.00, bank_size=None
+2026-02-10 01:03:44,273 - src.api.endpoints - ERROR - Error generating report: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2026-02-10 01:05:03,240 - src.api.endpoints - INFO - Processing report request: template=C_01.00, bank_size=None
+2026-02-10 01:05:03,269 - src.api.endpoints - ERROR - Error generating report: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2026-02-10 01:05:26,820 - src.api.endpoints - INFO - Processing report request: template=C_01.00, bank_size=None
+2026-02-10 01:05:26,842 - src.api.endpoints - ERROR - Error generating report: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2026-02-10 01:15:14,892 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 01:15:14,894 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 01:15:15,417 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 01:15:15,456 - src.data.database - INFO - Database engine created successfully
+2026-02-10 01:15:15,478 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 01:15:15,492 - src.data.database - INFO - Initializing database tables...
+2026-02-10 01:15:15,498 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 01:15:15,500 - src.data.database - INFO - Database tables created
+2026-02-10 01:15:15,502 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 01:15:15,502 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 01:15:15,503 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 01:15:15,504 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 01:15:15,505 - src.main - INFO - Database initialized successfully
+2026-02-10 01:15:28,781 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 01:15:28,784 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 01:15:29,347 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 01:15:29,371 - src.data.database - INFO - Database engine created successfully
+2026-02-10 01:15:29,377 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 01:15:29,386 - src.data.database - INFO - Initializing database tables...
+2026-02-10 01:15:29,391 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 01:15:29,392 - src.data.database - INFO - Database tables created
+2026-02-10 01:15:29,393 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 01:15:29,393 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 01:15:29,393 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 01:15:29,393 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 01:15:29,393 - src.main - INFO - Database initialized successfully
+2026-02-10 01:17:48,937 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 01:17:50,153 - src.api.endpoints - ERROR - Error in ReportingService: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2026-02-10 01:46:08,542 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 01:46:08,544 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 01:46:08,823 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 01:46:08,838 - src.data.database - INFO - Database engine created successfully
+2026-02-10 01:46:08,846 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 01:46:08,852 - src.data.database - INFO - Initializing database tables...
+2026-02-10 01:46:08,854 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 01:46:08,855 - src.data.database - INFO - Database tables created
+2026-02-10 01:46:08,857 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 01:46:08,857 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 01:46:08,857 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 01:46:08,858 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 01:46:08,859 - src.main - INFO - Database initialized successfully
+2026-02-10 01:49:08,116 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 01:49:08,183 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 01:49:40,597 - src.api.endpoints - INFO - Processing report request: template=C_02.00
+2026-02-10 01:49:40,599 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 01:51:01,820 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 01:51:01,821 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 01:51:16,259 - src.api.endpoints - INFO - Processing report request: template=C_02.00
+2026-02-10 01:51:16,260 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 01:54:58,478 - src.api.endpoints - INFO - Processing report request: template=C_02.00
+2026-02-10 01:54:58,480 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 01:55:08,538 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 01:55:08,539 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 02:21:55,976 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 02:21:55,977 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 02:21:56,399 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 02:21:56,423 - src.data.database - INFO - Database engine created successfully
+2026-02-10 02:21:56,429 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 02:21:56,435 - src.data.database - INFO - Initializing database tables...
+2026-02-10 02:21:56,438 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 02:21:56,440 - src.data.database - INFO - Database tables created
+2026-02-10 02:21:56,440 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 02:21:56,441 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 02:21:56,441 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 02:21:56,441 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 02:21:56,441 - src.main - INFO - Database initialized successfully
+2026-02-10 02:26:57,277 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 02:26:57,279 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 02:26:57,745 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 02:26:57,771 - src.data.database - INFO - Database engine created successfully
+2026-02-10 02:26:57,781 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 02:26:57,821 - src.main - ERROR - Database initialization failed: cannot import name 'Base' from partially initialized module 'src.data.database' (most likely due to a circular import) (C:\Users\ashal\Documents\honours\Akoin\assistant\src\data\database.py)
+2026-02-10 02:31:17,440 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 02:31:17,442 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 02:31:18,036 - src.data.database - INFO - Database tables created successfully
+2026-02-10 02:31:18,036 - src.main - INFO - Database initialized successfully
+2026-02-10 02:33:01,542 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 02:33:02,420 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 02:35:54,591 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 02:35:54,596 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 02:36:26,377 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 02:36:26,379 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 02:36:26,712 - src.data.database - INFO - Database tables created successfully
+2026-02-10 02:36:26,712 - src.main - INFO - Database initialized successfully
+2026-02-10 02:36:38,083 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 02:36:38,694 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 02:45:04,854 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 02:45:04,855 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 02:45:05,236 - src.data.database - INFO - Database tables created successfully
+2026-02-10 02:45:05,236 - src.main - INFO - Database initialized successfully
+2026-02-10 02:45:05,239 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 02:45:05,245 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 02:45:05,247 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 02:45:05,250 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 02:45:05,255 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 02:45:05,258 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 02:45:21,469 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 02:45:21,472 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 03:17:11,977 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 03:17:11,978 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 03:17:12,034 - src.main - ERROR - Database initialization failed: cannot import name 'init_db' from 'src.data.database' (C:\Users\ashal\Documents\honours\Akoin\assistant\src\data\database.py)
+2026-02-10 03:18:01,849 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 03:18:01,918 - src.services.reporting_service - INFO - Reporting Service initialized
+2026-02-10 03:18:02,059 - src.core.llm_client - INFO - Using rule-based processing (no OpenAI API key provided)
+2026-02-10 03:18:02,117 - src.services.reporting_service - ERROR - RetrievalEngine not available: cannot import name 'RetrievalEngine' from 'src.core.retrieval_engine' (C:\Users\ashal\Documents\honours\Akoin\assistant\src\core\retrieval_engine.py)
+2026-02-10 03:18:02,120 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 03:18:02,123 - src.api.endpoints - INFO - Processing report request: template=C_01.00
+2026-02-10 03:18:02,125 - src.services.reporting_service - INFO - Reporting Service initialized
+2026-02-10 03:18:02,125 - src.core.llm_client - INFO - Using rule-based processing (no OpenAI API key provided)
+2026-02-10 03:18:02,126 - src.services.reporting_service - ERROR - RetrievalEngine not available: cannot import name 'RetrievalEngine' from 'src.core.retrieval_engine' (C:\Users\ashal\Documents\honours\Akoin\assistant\src\core\retrieval_engine.py)
+2026-02-10 03:18:02,126 - src.api.endpoints - WARNING - ReportingService not available, returning enhanced mock data
+2026-02-10 03:22:12,476 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 03:22:12,486 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 03:22:12,534 - src.main - ERROR - Database initialization failed: cannot import name 'init_db' from 'src.data.database' (C:\Users\ashal\Documents\honours\Akoin\assistant\src\data\database.py)
+2026-02-10 03:22:14,027 - src.main - INFO - API endpoints loaded successfully
+2026-02-10 03:22:14,033 - src.main - INFO - Starting COREP Regulatory Assistant...
+2026-02-10 03:22:14,042 - src.main - ERROR - Database initialization failed: cannot import name 'init_db' from 'src.data.database' (C:\Users\ashal\Documents\honours\Akoin\assistant\src\data\database.py)

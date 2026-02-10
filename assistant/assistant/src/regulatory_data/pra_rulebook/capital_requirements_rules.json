@@ -1,0 +1,52 @@
+[
+  {
+    "paragraph_id": "PRA_RB_4.3.1",
+    "source": "PRA Rulebook",
+    "section": "Capital Requirements",
+    "content": "Institutions shall at all times maintain the following minimum capital ratios: (a) Common Equity Tier 1 capital ratio of 4.5% of total risk exposure amount; (b) Tier 1 capital ratio of 6% of total risk exposure amount; (c) Total capital ratio of 8% of total risk exposure amount.",
+    "template_reference": "C_02.00",
+    "field_references": ["C_02.00_r010_c010", "C_02.00_r020_c010", "C_02.00_r030_c010"],
+    "effective_date": "2023-01-01",
+    "validation_rules": ["positive_decimal", "required"]
+  },
+  {
+    "paragraph_id": "PRA_RB_4.3.5",
+    "source": "PRA Rulebook",
+    "section": "Capital Requirements",
+    "content": "Capital conservation buffer requirement is 2.5% of total risk exposure amount and must consist of CET1 capital. Institutions that fail to meet the combined buffer requirement will face restrictions on distributions of earnings.",
+    "template_reference": "C_02.00",
+    "field_references": ["C_02.00_r040_c010"],
+    "effective_date": "2023-01-01",
+    "validation_rules": ["positive_decimal", "min_value:2.5"]
+  },
+  {
+    "paragraph_id": "PRA_RB_4.3.8",
+    "source": "PRA Rulebook",
+    "section": "Capital Requirements",
+    "content": "Countercyclical capital buffer rate is set by the PRA and can range from 0% to 2% of total risk exposure amount. The buffer must be met with CET1 capital and applies to UK exposures and relevant third-country exposures.",
+    "template_reference": "C_02.00",
+    "field_references": ["C_02.00_r050_c010"],
+    "effective_date": "2023-01-01",
+    "validation_rules": ["decimal", "range:0-2"]
+  },
+  {
+    "paragraph_id": "PRA_RB_4.3.12",
+    "source": "PRA Rulebook",
+    "section": "Capital Requirements",
+    "content": "Systemically important institutions (O-SIIs) must maintain an O-SII buffer of up to 3% of total risk exposure amount, determined annually by the PRA based on the institution's systemic importance.",
+    "template_reference": "C_02.00",
+    "field_references": ["C_02.00_r060_c010"],
+    "effective_date": "2023-01-01",
+    "validation_rules": ["decimal", "range:0-3"]
+  },
+  {
+    "paragraph_id": "PRA_RB_4.3.15",
+    "source": "PRA Rulebook",
+    "section": "Capital Requirements",
+    "content": "Total risk exposure amount for credit risk shall be calculated using either the Standardised Approach (SA) or Internal Ratings Based (IRB) approach, as approved by the PRA. Market risk and operational risk exposures must also be included in the total.",
+    "template_reference": "C_02.00",
+    "field_references": ["C_02.00_r070_c010"],
+    "effective_date": "2023-01-01",
+    "validation_rules": ["positive_decimal", "required"]
+  }
+]

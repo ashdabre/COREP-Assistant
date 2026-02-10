@@ -1,0 +1,10 @@
+COREP Assistant Initialization Summary
+========================================
+[OK] Directories created
+[OK] Configuration files created
+[OK] Database initialized with sample data
+
+Next steps:
+1. Add Grok API key to .env file
+2. Run: pip install -r requirements.txt
+3. Run: uvicorn src.main:app --reload

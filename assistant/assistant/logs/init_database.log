@@ -1,0 +1,145 @@
+2026-02-10 00:17:46,575 - __main__ - INFO - ============================================================
+2026-02-10 00:17:46,576 - __main__ - INFO - COREP Regulatory Assistant - Initialization
+2026-02-10 00:17:46,576 - __main__ - INFO - ============================================================
+2026-02-10 00:17:46,577 - __main__ - INFO - Starting initialization process...
+2026-02-10 00:17:46,577 - __main__ - INFO - ==================================================
+2026-02-10 00:17:46,578 - __main__ - INFO - Step 1: Creating directories
+2026-02-10 00:17:46,578 - __main__ - INFO - ==================================================
+2026-02-10 00:17:46,680 - __main__ - INFO - ==================================================
+2026-02-10 00:17:46,680 - __main__ - INFO - Step 2: Creating configuration files
+2026-02-10 00:17:46,681 - __main__ - INFO - ==================================================
+2026-02-10 00:17:46,681 - __main__ - INFO - Creating configuration files...
+2026-02-10 00:17:46,693 - __main__ - INFO - ==================================================
+2026-02-10 00:17:46,693 - __main__ - INFO - Step 3: Creating app structure
+2026-02-10 00:17:46,694 - __main__ - INFO - ==================================================
+2026-02-10 00:17:46,695 - __main__ - INFO - Checking app structure...
+2026-02-10 00:17:46,703 - __main__ - INFO - ==================================================
+2026-02-10 00:17:46,703 - __main__ - INFO - Step 4: Initializing database
+2026-02-10 00:17:46,704 - __main__ - INFO - ==================================================
+2026-02-10 00:17:46,704 - __main__ - INFO - Starting database initialization...
+2026-02-10 00:17:47,345 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 00:17:47,383 - src.data.database - INFO - Database engine created successfully
+2026-02-10 00:17:47,396 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 00:17:47,464 - __main__ - INFO - Step 1: Creating database tables...
+2026-02-10 00:17:47,464 - src.data.database - INFO - Initializing database tables...
+2026-02-10 00:17:47,470 - src.data.database - INFO - Existing tables before creation: []
+2026-02-10 00:17:47,511 - src.data.database - INFO - Database tables created
+2026-02-10 00:17:47,513 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:17:47,513 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 00:17:47,522 - __main__ - INFO - Step 2: Creating database session...
+2026-02-10 00:17:47,523 - __main__ - INFO - Tables in database: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:17:47,524 - __main__ - INFO - Step 3: Clearing existing data...
+2026-02-10 00:17:47,535 - __main__ - INFO - Deleted 0 existing records
+2026-02-10 00:17:47,535 - __main__ - INFO - Step 4: Adding sample data...
+2026-02-10 00:17:47,536 - __main__ - INFO - Creating sample regulatory data...
+2026-02-10 00:17:47,536 - __main__ - INFO - Created 3 sample regulatory records
+2026-02-10 00:17:47,556 - __main__ - INFO - Total records in database: 3
+2026-02-10 00:17:47,556 - __main__ - INFO - Database session closed
+2026-02-10 00:17:47,557 - __main__ - INFO - ==================================================
+2026-02-10 00:17:47,557 - __main__ - INFO - Step 5: Saving sample regulations to file
+2026-02-10 00:17:47,558 - __main__ - INFO - ==================================================
+2026-02-10 00:17:47,558 - __main__ - INFO - Creating sample regulatory data...
+2026-02-10 00:17:47,558 - __main__ - INFO - Created 3 sample regulatory records
+2026-02-10 00:17:47,563 - __main__ - INFO - ============================================================
+2026-02-10 00:17:47,565 - __main__ - INFO - ============================================================
+2026-02-10 00:17:57,321 - __main__ - INFO - ============================================================
+2026-02-10 00:17:57,321 - __main__ - INFO - COREP Regulatory Assistant - Initialization
+2026-02-10 00:17:57,321 - __main__ - INFO - ============================================================
+2026-02-10 00:17:57,322 - __main__ - INFO - Starting initialization process...
+2026-02-10 00:17:57,322 - __main__ - INFO - ==================================================
+2026-02-10 00:17:57,322 - __main__ - INFO - Step 1: Creating directories
+2026-02-10 00:17:57,322 - __main__ - INFO - ==================================================
+2026-02-10 00:17:57,345 - __main__ - INFO - ==================================================
+2026-02-10 00:17:57,346 - __main__ - INFO - Step 2: Creating configuration files
+2026-02-10 00:17:57,347 - __main__ - INFO - ==================================================
+2026-02-10 00:17:57,347 - __main__ - INFO - Creating configuration files...
+2026-02-10 00:17:57,357 - __main__ - INFO - ==================================================
+2026-02-10 00:17:57,358 - __main__ - INFO - Step 3: Creating app structure
+2026-02-10 00:17:57,360 - __main__ - INFO - ==================================================
+2026-02-10 00:17:57,360 - __main__ - INFO - Checking app structure...
+2026-02-10 00:17:57,368 - __main__ - INFO - ==================================================
+2026-02-10 00:17:57,368 - __main__ - INFO - Step 4: Initializing database
+2026-02-10 00:17:57,369 - __main__ - INFO - ==================================================
+2026-02-10 00:17:57,370 - __main__ - INFO - Starting database initialization...
+2026-02-10 00:17:57,837 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 00:17:57,865 - src.data.database - INFO - Database engine created successfully
+2026-02-10 00:17:57,877 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 00:17:57,886 - __main__ - INFO - Step 1: Creating database tables...
+2026-02-10 00:17:57,887 - src.data.database - INFO - Initializing database tables...
+2026-02-10 00:17:57,895 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:17:57,898 - src.data.database - INFO - Database tables created
+2026-02-10 00:17:57,899 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:17:57,900 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 00:17:57,912 - __main__ - INFO - Step 2: Creating database session...
+2026-02-10 00:17:57,914 - __main__ - INFO - Tables in database: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:17:57,915 - __main__ - INFO - Step 3: Clearing existing data...
+2026-02-10 00:17:57,930 - __main__ - INFO - Deleted 3 existing records
+2026-02-10 00:17:57,931 - __main__ - INFO - Step 4: Adding sample data...
+2026-02-10 00:17:57,931 - __main__ - INFO - Creating sample regulatory data...
+2026-02-10 00:17:57,932 - __main__ - INFO - Created 3 sample regulatory records
+2026-02-10 00:17:57,960 - __main__ - INFO - Total records in database: 3
+2026-02-10 00:17:57,961 - __main__ - INFO - Database session closed
+2026-02-10 00:17:57,962 - __main__ - INFO - ==================================================
+2026-02-10 00:17:57,962 - __main__ - INFO - Step 5: Saving sample regulations to file
+2026-02-10 00:17:57,963 - __main__ - INFO - ==================================================
+2026-02-10 00:17:57,964 - __main__ - INFO - Creating sample regulatory data...
+2026-02-10 00:17:57,965 - __main__ - INFO - Created 3 sample regulatory records
+2026-02-10 00:17:57,974 - __main__ - INFO - ============================================================
+2026-02-10 00:17:57,981 - __main__ - INFO - ============================================================
+2026-02-10 00:25:25,162 - __main__ - INFO - ============================================================
+2026-02-10 00:25:25,163 - __main__ - INFO - COREP Regulatory Assistant - Initialization
+2026-02-10 00:25:25,163 - __main__ - INFO - ============================================================
+2026-02-10 00:25:25,163 - __main__ - INFO - Starting initialization process...
+2026-02-10 00:25:25,164 - __main__ - INFO - ==================================================
+2026-02-10 00:25:25,164 - __main__ - INFO - Step 1: Creating directories
+2026-02-10 00:25:25,165 - __main__ - INFO - ==================================================
+2026-02-10 00:25:25,166 - __main__ - INFO - [OK] Created directory: data
+2026-02-10 00:25:25,167 - __main__ - INFO - [OK] Created directory: logs
+2026-02-10 00:25:25,168 - __main__ - INFO - [OK] Created directory: src/regulatory_data/pra_rulebook
+2026-02-10 00:25:25,169 - __main__ - INFO - [OK] Created directory: src/regulatory_data/taxonomies
+2026-02-10 00:25:25,170 - __main__ - INFO - [OK] Created directory: src/regulatory_data/embeddings
+2026-02-10 00:25:25,170 - __main__ - INFO - ==================================================
+2026-02-10 00:25:25,170 - __main__ - INFO - Step 2: Creating configuration files
+2026-02-10 00:25:25,171 - __main__ - INFO - ==================================================
+2026-02-10 00:25:25,172 - __main__ - INFO - Creating configuration files...
+2026-02-10 00:25:25,173 - __main__ - INFO - [OK] .env file already exists
+2026-02-10 00:25:25,174 - __main__ - INFO - [OK] requirements.txt already exists
+2026-02-10 00:25:25,174 - __main__ - INFO - ==================================================
+2026-02-10 00:25:25,174 - __main__ - INFO - Step 3: Creating app structure
+2026-02-10 00:25:25,175 - __main__ - INFO - ==================================================
+2026-02-10 00:25:25,175 - __main__ - INFO - Checking app structure...
+2026-02-10 00:25:25,178 - __main__ - INFO - [OK] App structure already exists
+2026-02-10 00:25:25,178 - __main__ - INFO - ==================================================
+2026-02-10 00:25:25,179 - __main__ - INFO - Step 4: Initializing database
+2026-02-10 00:25:25,180 - __main__ - INFO - ==================================================
+2026-02-10 00:25:25,181 - __main__ - INFO - Starting database initialization...
+2026-02-10 00:25:25,688 - src.data.database - INFO - Database URL: sqlite:///./data/regulatory.db
+2026-02-10 00:25:25,701 - src.data.database - INFO - Database engine created successfully
+2026-02-10 00:25:25,710 - src.data.database - INFO - Async database engine created successfully
+2026-02-10 00:25:25,716 - __main__ - INFO - Step 1: Creating database tables...
+2026-02-10 00:25:25,717 - src.data.database - INFO - Initializing database tables...
+2026-02-10 00:25:25,720 - src.data.database - INFO - Existing tables before creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:25:25,721 - src.data.database - INFO - Database tables created
+2026-02-10 00:25:25,721 - src.data.database - INFO - Tables after creation: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:25:25,722 - src.data.database - INFO - Expected tables from models: ['regulatory_texts', 'audit_logs']
+2026-02-10 00:25:25,722 - src.data.database - INFO - [OK] Table 'regulatory_texts' created successfully
+2026-02-10 00:25:25,722 - src.data.database - INFO - [OK] Table 'audit_logs' created successfully
+2026-02-10 00:25:25,722 - __main__ - INFO - Step 2: Creating database session...
+2026-02-10 00:25:25,723 - __main__ - INFO - Tables in database: ['audit_logs', 'regulatory_texts']
+2026-02-10 00:25:25,723 - __main__ - INFO - Step 3: Clearing existing data...
+2026-02-10 00:25:25,732 - __main__ - INFO - Deleted 3 existing records
+2026-02-10 00:25:25,733 - __main__ - INFO - Step 4: Adding sample data...
+2026-02-10 00:25:25,733 - __main__ - INFO - Creating sample regulatory data...
+2026-02-10 00:25:25,733 - __main__ - INFO - Created 3 sample regulatory records
+2026-02-10 00:25:25,743 - __main__ - INFO - [OK] Added 3 regulatory texts to database
+2026-02-10 00:25:25,750 - __main__ - INFO - Total records in database: 3
+2026-02-10 00:25:25,751 - __main__ - INFO - Database session closed
+2026-02-10 00:25:25,751 - __main__ - INFO - ==================================================
+2026-02-10 00:25:25,752 - __main__ - INFO - Step 5: Saving sample regulations to file
+2026-02-10 00:25:25,752 - __main__ - INFO - ==================================================
+2026-02-10 00:25:25,752 - __main__ - INFO - Creating sample regulatory data...
+2026-02-10 00:25:25,752 - __main__ - INFO - Created 3 sample regulatory records
+2026-02-10 00:25:25,753 - __main__ - INFO - [OK] Created sample regulations file: src\regulatory_data\pra_rulebook\own_funds_rules.json
+2026-02-10 00:25:25,755 - __main__ - INFO - ============================================================
+2026-02-10 00:25:25,755 - __main__ - INFO - [SUCCESS] Initialization completed successfully!
+2026-02-10 00:25:25,755 - __main__ - INFO - ============================================================

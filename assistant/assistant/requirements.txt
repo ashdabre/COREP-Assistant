@@ -1,0 +1,34 @@
+# FastAPI Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.13.0
+aiosqlite==0.19.0
+
+# Vector Database & Embeddings
+chromadb==0.4.22
+sentence-transformers==2.2.2  # Local embeddings
+numpy
+
+# HTTP Client for Grok API
+httpx==0.25.1
+
+# Optional: OpenAI for embeddings (if using)
+openai==1.3.0  # Optional: only if USE_OPENAI_EMBEDDINGS=true
+
+# Utilities
+python-dotenv==1.0.0
+pandas
+lxml
+jinja2
+
+# Testing
+pytest
+pytest-asyncio
+
+# File handling
+python-multipart
