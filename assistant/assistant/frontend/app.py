@@ -23,7 +23,7 @@ if 'report_result' not in st.session_state:
 if 'processing_steps' not in st.session_state:
     st.session_state.processing_steps = []
 if 'api_url' not in st.session_state:
-    st.session_state.api_url = "http://localhost:8000"
+    st.session_state.api_url = "https://corep-assistant-dwee.onrender.com/"
 if 'vector_db_stats' not in st.session_state:
     st.session_state.vector_db_stats = None
 if 'system_info' not in st.session_state:
