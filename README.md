@@ -79,4 +79,8 @@ streamlit run frontend/app.py
 
 ## **📸 Screenshots**
 
-
+![Images](assistant/assistant/assets/C-img1.png) 
+![Images](assistant/assistant/assets/C-img2.png) 
+![Images](assistant/assistant/assets/C-img3.png) 
+![Images](assistant/assistant/assets/C-img4.png) 
+![Images](assistant/assistant/assets/C-img5.png) 
